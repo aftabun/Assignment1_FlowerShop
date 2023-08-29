@@ -1,0 +1,252 @@
+/* ---------- Universal Section Start ---------- */
+* {
+    padding: 0;
+    margin: 0 auto;
+    font-family: "Lato", sans-serif;
+  }
+  /* ---------- Universal Section End ---------- */
+  
+  /* ---------- Most Use Tag and Class Start---------- */
+  h1,
+  h3,
+  h4,
+  h5 {
+    color: #272727;
+  }
+  
+  h1 {
+    font-size: 80px;
+    font-weight: 900;
+  }
+  
+  h2 {
+    font-size: 48px;
+    font-weight: 900;
+  }
+  
+  h3 {
+    font-size: 40px;
+    font-weight: 900;
+  }
+  
+  h4 {
+    font-size: 35px;
+    font-weight: 700;
+  }
+  
+  h5 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+  }
+  
+  h6 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  p {
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.6);
+    line-height: 30px;
+    font-weight: 400;
+    padding: 32px 0px;
+  }
+  
+  .max-width {
+    max-width: 1440px;
+  }
+  /* ---------- Most Use Tag and Class End---------- */
+  
+  /* ---------- Header Section Start ---------- */
+  header {
+    background-color: rgba(229, 84, 115, 0.1);
+  }
+  
+  .banner {
+    height: 850px;
+    display: flex;
+  }
+  
+  .banner-left,
+  .banner-right {
+    width: 45%;
+  }
+  
+  .banner-left {
+    margin: auto 0;
+  }
+  
+  button {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
+    background-color: #e55473;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .banner-right {
+    background-image: url(./images/pngwing\ 10.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  /* ---------- Header Section End ---------- */
+  
+  /* ---------- Feature Section Start ---------- */
+  .feature-section {
+    padding: 128px 0;
+    text-align: center;
+  }
+  
+  .feature-top {
+    padding: 24px 0;
+  }
+  
+  .feature-bottom {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .feature-flower-image {
+    height: 428px;
+    width: 310px;
+  }
+  
+  .feature-image-bg1,
+  .feature-image-bg2,
+  .feature-image-bg3 {
+    padding: 110px 77px 0 77px;
+    border-radius: 300px 300px 0 0;
+  }
+  
+  .feature-image-bg1 {
+    background-color: rgba(167, 33, 98, 0.15);
+  }
+  
+  .feature-image-bg2 {
+    background-color: rgba(5, 151, 160, 0.15);
+  }
+  
+  .feature-image-bg3 {
+    background-color: rgba(71, 125, 17, 0.15);
+  }
+  
+  .feature-flower > h5 {
+    padding-top: 32px;
+    border-bottom: 3px solid rgb(185, 183, 183);
+    width: 50%;
+  }
+  /* ---------- Feature Section End ---------- */
+  
+  /* ---------- Support Section Start ---------- */
+  .support-section {
+    display: flex;
+    text-align: center;
+    padding: 44px 0;
+    background-color: rgba(132, 131, 131, 0.1);
+  }
+  
+  .support-section h5 {
+    color: rgba(39, 39, 39, 0.8);
+  }
+  /* ---------- Support Section End ---------- */
+  
+  /* ---------- Hot Deal Section Start ---------- */
+  .hot-deal-back {
+    background-color: rgba(248, 163, 181, 0.1);
+  }
+  
+  .hot-deal-section {
+    display: flex;
+    margin-top: 100px;
+    padding: 128px 0 128px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  span {
+    color: #e55473;
+  }
+  /* ---------- Hot Deal Section End ---------- */
+  
+  /* ---------- Instagram Section Start ---------- */
+  .instagram-section {
+    text-align: center;
+    padding: 128px 0;
+  }
+  
+  .instagram-images {
+    display: flex;
+  }
+  /* ---------- Instagram Section End ---------- */
+  
+  /* ---------- [Extra Section] Read Our Article Start ---------- */
+  article {
+    padding: 100px 0 150px 10px;
+  }
+  
+  .article-section > h3 {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  
+  .articles-list {
+    display: flex;
+    gap: 60px;
+  }
+  
+  p > a {
+    text-decoration: none;
+    color: #e55473;
+  }
+  
+  .article1 > img {
+    height: 284px;
+    width: 445px;
+  }
+  /* ---------- [Extra Section] Read Our Article End ---------- */
+  
+  /* ---------- Latest Deals Section Start ---------- */
+  .leatest-deal {
+    height: 450px;
+    background-image: url(./images/Rectangle\ 9.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 128px;
+  }
+  
+  input {
+    padding: 20px 0;
+    border: none;
+    font-size: 18px;
+  }
+  /* ---------- Latest Deals Section End ---------- */
+  
+  /* ---------- Footer Section Start ---------- */
+  footer {
+    background-color: #111010;
+    text-align: center;
+  }
+  
+  .footer-area {
+    color: #ffffff;
+    background-color: #111010;
+    padding: 128px 0 50px 0;
+  }
+  
+  .footer-area > h2,
+  .footer-area > p {
+    color: #ffffff;
+  }
+  
+  .copyright-text {
+    color: rgba(255, 255, 255, 0.4);
+  }
+  /* ---------- Footer Section End ---------- */
+  
